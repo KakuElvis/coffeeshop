@@ -40,9 +40,9 @@ const Home = () => {
 
         <section className='py-40 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: "url('./src/assets/milk.webp')" }}>
             <div className=' py-2 px-40'>
-                <h2 className='text-white'>Welcome</h2>
-                <h1 className='text-white'>We serve the richest coffee in the city!</h1>
-                <button className='bg-white text-footer rounded-full text-sm px-2'>Order Now</button>
+                <h2 className='text-white'>Welcome!</h2>
+                <h1 className='text-white'>We serve the richest coffee in Accra!</h1>
+                <button className='bg-white text-footer rounded-full text-sm px-3'>Order Now</button>
             </div>
         </section>
 
@@ -67,11 +67,11 @@ const Home = () => {
             </div>
         </section>
 
-        <section className='bg-white px-40'>
-            <div>
+        <section className='bg-white'>
+            <div className='px-40'>
                 <h2 className='text-center text-2xl font-bold py-5'>OUR SPECIAL COFFEE</h2>
-                <div className='flex space-x-5 p-2 mb-10 justify-center'>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
+                <div className='flex space-x-6 mb-10 justify-between'>
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
                         <img src="./src/assets/coffee1.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
@@ -82,7 +82,7 @@ const Home = () => {
                             <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
                         </div>
                     </div>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
                         <img src="./src/assets/coffee2.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
@@ -93,8 +93,8 @@ const Home = () => {
                             <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
                         </div>
                     </div>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
-                        <img src="./src/assets/coffee3.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
+                        <img src="./src/assets/coffee3.jpg" className="bg-footer rounded-lg" alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
                             <p>Lorem ipsum dolor sit amet.</p>
@@ -104,8 +104,8 @@ const Home = () => {
                             <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
                         </div>
                     </div>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
-                        <img src="./src/assets/coffee1.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
+                        <img src="./src/assets/coffee1.jpg" className="bg-footer rounded-lg" alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
                             <p>Lorem ipsum dolor sit amet.</p>
@@ -115,8 +115,8 @@ const Home = () => {
                             <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
                         </div>
                     </div>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
-                        <img src="./src/assets/coffee1.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
+                        <img src="./src/assets/coffee1.jpg" className="bg-footer rounded-lg" alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
                             <p>Lorem ipsum dolor sit amet.</p>
@@ -128,10 +128,21 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='px-40  py-10'>
                 <h2 className='text-center text-2xl font-bold py-5'>OUR SPECIAL DESERT</h2>
-                <div className='flex space-x-5 p-2 mb-10 justify-center'>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
+                <div className='flex space-x-6 justify-between'>
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
+                        <img src="./src/assets/dessert.jpg" className="bg-footer rounded-lg" alt="" width="200" height="200" />
+                        <div className='mb-2'>
+                            <h2 className='font-bold'>Lungo Coffee</h2>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div className='flex gap-5'>
+                            <h3 className='font-bold text-lg'>GH200.00</h3>
+                            <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
+                        </div>
+                    </div>
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
                         <img src="./src/assets/dessert.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
@@ -142,7 +153,7 @@ const Home = () => {
                             <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
                         </div>
                     </div>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
                         <img src="./src/assets/dessert.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
@@ -153,7 +164,7 @@ const Home = () => {
                             <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
                         </div>
                     </div>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
                         <img src="./src/assets/dessert.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
@@ -164,18 +175,7 @@ const Home = () => {
                             <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
                         </div>
                     </div>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
-                        <img src="./src/assets/dessert.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
-                        <div className='mb-2'>
-                            <h2 className='font-bold'>Lungo Coffee</h2>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div className='flex gap-5'>
-                            <h3 className='font-bold text-lg'>GH200.00</h3>
-                            <button className='bg-footer text-white rounded-lg text-sm px-3'>Order Now</button>
-                        </div>
-                    </div>
-                    <div className='bg-amber-100 p-2 rounded-lg'>
+                    <div className='bg-background p-2 rounded-lg shadow-sm'>
                         <img src="./src/assets/dessert.jpg" className="bg-footer rounded-lg  " alt="" width="200" height="200" />
                         <div className='mb-2'>
                             <h2 className='font-bold'>Lungo Coffee</h2>
@@ -190,13 +190,13 @@ const Home = () => {
             </div>
         </section>
 
-        <section className='mb-5'>
+        <section className='mb-5'> 
             <div className='flex space-x-5 items-center justify-between'>
                 <div>
                     <img src="./src/assets/beans.png" className='-rotate-90' alt="" width="200" height="200" />
                 </div>
                 <div className='text-center'>
-                    <h2 className='font-bold text-3xl'>Check out our best coffee beans</h2>
+                    <h2 className='font-semibold text-3xl py-5 text-justify'>Check out our best <br /> coffee beans</h2>
                     <button className='bg-footer rounded-full py-3 px-5 text-white font-bold'>Explore our products</button>
                 </div>
                 <div>
@@ -211,18 +211,27 @@ const Home = () => {
                     <h2 className=''>Come and Join</h2>
                     <h1 className='font-bold text-lg'>OUR HAPPY CUSTOMERS</h1>
                 </div>
-                <div>
-                    <div className='flex space-x-2'>
-                        <div className='bg-amber-200 rounded-lg p-2'>
-                            <h2>kaeme</h2>
+                <div className='px-40'>
+                    <div className='flex space-x-2 justify-between'>
+                        <div className='bg-background rounded-lg p-5 shadow-sm'>
+                            <div className='flex space-x-2 items-center'>
+                                <img src="./src/assets/profile.jpg" className='rounded-full' alt="" width="50" height="50" />
+                                <h2>KwameKaku</h2>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odit at corporis sed doloribus blanditiis minus. Nihil voluptatibus eaque illum.</p>
                         </div>
-                        <div className='bg-amber-200 rounded-lg p-2'>
-                            <h2>kaeme</h2>
+                        <div className='bg-background rounded-lg p-5 shadow-sm'>
+                            <div className='flex space-x-2 items-center'>
+                                <img src="./src/assets/profile.jpg" className='rounded-full' alt="" width="50" height="50" />
+                                <h2>KwameKaku</h2>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odit at corporis sed doloribus blanditiis minus. Nihil voluptatibus eaque illum.</p>
                         </div>
-                        <div className='bg-amber-200 rounded-lg p-2'>
-                            <h2>kaeme</h2>
+                        <div className='bg-background rounded-lg p-5 shadow-sm'>
+                            <div className='flex space-x-2 items-center'>
+                                <img src="./src/assets/profile.jpg" className='rounded-full' alt="" width="50" height="50" />
+                                <h2>KwameKaku</h2>
+                            </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni odit at corporis sed doloribus blanditiis minus. Nihil voluptatibus eaque illum.</p>
                         </div>
                     </div>
@@ -252,10 +261,10 @@ const Home = () => {
         </section>
 
 
-        <section className='bg-footer py-5'>
-            <div className='flex space-x-5 items-center justify-between px-5 text-white'>
+        <section className='bg-footer p-5'>
+            <div className='flex space-x-5 items-center justify-between p-5 text-white'>
                 <div>
-                    <div className='font-bold text-2xl'>COFFEE</div>
+                    <img src="./src/assets/logo1.png" className=" " alt="" width="100" height="100" />
                 </div>
                 <div>
                     <h2 className='font-bold text-lg'>PRIVACY</h2>
